@@ -14,26 +14,7 @@ It combines a **FastAPI backend** (for ML model inference) with a **React + Mate
 
 ---
 
-## 🏗️ Project Structure
 
-AI-Gen Detection/
-├── backend/
-│ ├── main.py # FastAPI app (API endpoints)
-│ ├── detector.py # Model loading & prediction logic
-│ ├── model.pkl # Trained ML model
-│ ├── combine_datasets.py # Script to merge human & AI text datasets
-│ ├── human_data.csv # Human-written text dataset
-│ ├── ai_data.csv # AI-generated text dataset
-│ ├── data.csv # Combined dataset
-│ ├── requirements.txt # Backend dependencies
-│
-├── frontend/ (React App)
-│ ├── src/
-│ │ ├── App.js # Main UI component
-│ │ ├── index.js # React entry point
-│ ├── package.json # Frontend dependencies
-│
-└── README.md # Project documentation
 
 ## ⚙️ Tech Stack
 - **Backend:** FastAPI, Scikit-learn, Pandas, Joblib, Uvicorn  
